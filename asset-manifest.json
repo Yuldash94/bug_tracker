@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bug_tracker/static/css/main.04dbaf8a.css",
+    "main.js": "/bug_tracker/static/js/main.ebde12c2.js",
+    "index.html": "/bug_tracker/index.html",
+    "main.04dbaf8a.css.map": "/bug_tracker/static/css/main.04dbaf8a.css.map",
+    "main.ebde12c2.js.map": "/bug_tracker/static/js/main.ebde12c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04dbaf8a.css",
+    "static/js/main.ebde12c2.js"
+  ]
+}
