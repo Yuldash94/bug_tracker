@@ -1,0 +1,91 @@
+.bugs_list {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bugs_list_title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bugs_list_title * {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.add_bug_button {
+    background: #FFD600;
+    border-radius: 16px;
+    padding: 8px 75px;
+    cursor: pointer;
+}
+.add_bug_button:hover {
+    color: #FFFFFF;
+}
+.bug div {
+    border: none;
+    border-style: none;
+    border-width: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid #EBEBEB;
+
+}
+td, th {
+    padding: 25px 0;
+}
+.bug_status {
+    border-radius: 10px;
+    width: 140px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.status-progress {
+    background: #FFD600;
+}
+.status-new {
+    border: 1px solid #32A143;
+}
+.status-rejected {
+    background: #ED4848;
+}
+.status-review {
+    border: 1px solid #FFD600;
+}
+.status-solved {
+    background: #32A143;
+}
+.bug_severity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.severity_ball {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.severity-low {
+    background: #32A243;
+}
+.severity-medium {
+    background: #FFD600;
+}
+.severity-high {
+    background: #ED4848;
+}
+.severity-critical {
+    background: #ED4848;
+}

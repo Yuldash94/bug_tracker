@@ -1,0 +1,47 @@
+.tracker {
+    width: 70%;
+    margin-top: 50px;
+}
+.tracker_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tracker_head p {
+    text-transform: uppercase;
+}
+.tracker_change {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.tracker_change p:hover {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    border-bottom: 2px solid #FFD600;
+}
+.tracker_logo {
+    display: flex;
+    align-items: center;
+}
+.tracker_user_info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.tracker_user_info > div{
+    min-height: 40px;
+    min-width: 40px;
+    background: #F6F6F6;
+    border-radius: 6px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #676767;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 15px;
+}
